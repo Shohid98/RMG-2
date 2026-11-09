@@ -1,0 +1,14 @@
+
+{
+  "categories": [
+    {"id":"general","nameBn":"জেনারেল","nameEn":"General","icon":"📘","visible":true,"order":1},
+    {"id":"cutting","nameBn":"কাটিং","nameEn":"Cutting","icon":"✂️","visible":true,"order":2},
+    {"id":"sewing","nameBn":"সুইং","nameEn":"Sewing","icon":"🧵","visible":true,"order":3},
+    {"id":"finishing","nameBn":"ফিনিশিং","nameEn":"Finishing","icon":"👔","visible":true,"order":4},
+    {"id":"quality","nameBn":"কোয়ালিটি","nameEn":"Quality","icon":"🔍","visible":true,"order":5},
+    {"id":"store","nameBn":"স্টোর","nameEn":"Store","icon":"📦","visible":true,"order":6},
+    {"id":"merchandising","nameBn":"মার্চেন্ডাইজিং","nameEn":"Merchandising","icon":"📋","visible":true,"order":7},
+    {"id":"ie","nameBn":"IE","nameEn":"Industrial Engineering","icon":"⚙️","visible":true,"order":8}
+  ],
+  "questions": []
+}
