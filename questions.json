@@ -1,18 +1,18 @@
 {
   "categories": [
     {
-      "id": "general",
-      "nameBn": "জেনারেল",
-      "nameEn": "General",
-      "icon": "📘",
-      "visible": true,
-      "order": 1
-    },
-    {
       "id": "cutting",
       "nameBn": "কাটিং",
       "nameEn": "Cutting",
       "icon": "✂️",
+      "visible": true,
+      "order": 1
+    },
+    {
+      "id": "general",
+      "nameBn": "জেনারেল",
+      "nameEn": "General",
+      "icon": "📘",
       "visible": true,
       "order": 2
     },
@@ -67,15 +67,320 @@
   ],
   "questions": [
     {
-      "id": "qmw9ko1x0vwla7",
-      "category": "general",
-      "qBn": "হ্যালো",
-      "qEn": "Hello",
-      "aBn": "ঠিক আছে",
-      "aEn": "Ok",
+      "id": "qmw9kxmptzgflj",
+      "category": "sewing",
+      "qBn": "Sewing কী?",
+      "qEn": "What is Sewing?",
+      "aBn": "সুই ও সুতার সাহায্যে দুই বা ততোধিক কাপড় একসাথে যুক্ত করার প্রক্রিয়াকে Sewing বলে।",
+      "aEn": "Sewing is the process of joining two or more pieces of fabric using needle and thread.",
+      "options": [
+        "Cutting",
+        "Sewing",
+        "Finishing",
+        "Printing"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmpt7xczg",
+      "category": "sewing",
+      "qBn": "SPI এর পূর্ণরূপ কী?",
+      "qEn": "What is the full form of SPI?",
+      "aBn": "SPI এর পূর্ণরূপ হলো Stitches Per Inch। অর্থাৎ প্রতি ইঞ্চিতে সেলাইয়ের সংখ্যা।",
+      "aEn": "SPI stands for Stitches Per Inch, which means the number of stitches in one inch.",
+      "options": [
+        "Stitches Per Inch",
+        "Seam Per Inch",
+        "Stitch Per Item",
+        "Sewing Per Inch"
+      ],
+      "correct": 0,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmptggzgx",
+      "category": "sewing",
+      "qBn": "Seam কী?",
+      "qEn": "What is a Seam?",
+      "aBn": "দুই বা ততোধিক কাপড় সেলাই করে যুক্ত করলে সেই সংযোগ স্থানকে Seam বলে।",
+      "aEn": "A seam is the line where two or more fabric pieces are joined by stitching.",
+      "options": [
+        "Fabric",
+        "Seam",
+        "Needle",
+        "Thread"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmptzhyth",
+      "category": "sewing",
+      "qBn": "Stitch কী?",
+      "qEn": "What is a Stitch?",
+      "aBn": "সুই ও সুতার সাহায্যে তৈরি প্রতিটি সেলাইয়ের গঠনকে Stitch বলে।",
+      "aEn": "A stitch is a single unit of sewing formed by needle and thread.",
+      "options": [
+        "Stitch",
+        "Seam",
+        "Fabric",
+        "Pattern"
+      ],
+      "correct": 0,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmptv9htw",
+      "category": "sewing",
+      "qBn": "Sewing Machine-এর প্রধান কাজ কী?",
+      "qEn": "What is the main function of a sewing machine?",
+      "aBn": "কাপড়ের অংশগুলো নির্দিষ্ট সেলাইয়ের মাধ্যমে যুক্ত করা।",
+      "aEn": "To join fabric components through specified stitching.",
+      "options": [
+        "Fabric Cutting",
+        "Fabric Washing",
+        "Joining Fabric",
+        "Ironing"
+      ],
+      "correct": 2,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmptn310g",
+      "category": "sewing",
+      "qBn": "Needle-এর কাজ কী?",
+      "qEn": "What is the function of a sewing machine needle?",
+      "aBn": "কাপড়ের মধ্য দিয়ে সুতা প্রবেশ করিয়ে সেলাই তৈরি করা।",
+      "aEn": "To penetrate the fabric and carry the thread to form stitches.",
+      "options": [
+        "Cutting Fabric",
+        "Forming Stitches",
+        "Measuring Fabric",
+        "Pressing Fabric"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmpteno0n",
+      "category": "sewing",
+      "qBn": "Thread Tension কী?",
+      "qEn": "What is Thread Tension?",
+      "aBn": "সেলাইয়ের সময় উপরের ও নিচের সুতার টানের ভারসাম্যকে Thread Tension বলে।",
+      "aEn": "Thread tension is the balance of upper and lower thread tension during sewing.",
+      "options": [
+        "Fabric Width",
+        "Thread Balance",
+        "Needle Size",
+        "Stitch Length"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmpta3m71",
+      "category": "sewing",
+      "qBn": "Skip Stitch কী?",
+      "qEn": "What is a Skip Stitch?",
+      "aBn": "সেলাইয়ের সময় কোনো কোনো স্থানে Stitch তৈরি না হওয়াকে Skip Stitch বলে।",
+      "aEn": "Skip stitch occurs when stitches are not formed at certain points during sewing.",
+      "options": [
+        "Broken Stitch",
+        "Skip Stitch",
+        "Open Seam",
+        "Puckering"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmpt80j4x",
+      "category": "sewing",
+      "qBn": "Broken Stitch কী?",
+      "qEn": "What is a Broken Stitch?",
+      "aBn": "সেলাইয়ের সুতা ছিঁড়ে যাওয়ার কারণে Stitch ভেঙে যাওয়াকে Broken Stitch বলে।",
+      "aEn": "Broken stitch occurs when the sewing thread breaks during stitching.",
+      "options": [
+        "Skip Stitch",
+        "Broken Stitch",
+        "Uneven Stitch",
+        "Loose Thread"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmptbfke5",
+      "category": "sewing",
+      "qBn": "Seam Puckering কী?",
+      "qEn": "What is Seam Puckering?",
+      "aBn": "সেলাইয়ের লাইনে কাপড় কুঁচকে বা ঢেউয়ের মতো হয়ে যাওয়াকে Seam Puckering বলে।",
+      "aEn": "Seam puckering is the unwanted gathering or wrinkling of fabric along the seam.",
+      "options": [
+        "Open Seam",
+        "Seam Puckering",
+        "Oil Stain",
+        "Needle Hole"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmpt0zzyx",
+      "category": "sewing",
+      "qBn": "SPI বেশি হলে কী হতে পারে?",
+      "qEn": "What can happen if SPI is too high?",
+      "aBn": "অতিরিক্ত SPI-এর কারণে কাপড় দুর্বল হতে পারে এবং Seam Puckering হতে পারে।",
+      "aEn": "Excessive SPI may weaken the fabric and cause seam puckering.",
+      "options": [
+        "Fabric Strength Always Increases",
+        "Fabric Damage or Puckering",
+        "No Effect",
+        "Better Color"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmpti70us",
+      "category": "sewing",
+      "qBn": "Needle Breakage হওয়ার একটি সাধারণ কারণ কী?",
+      "qEn": "What is a common cause of needle breakage?",
+      "aBn": "ভুল Needle Size, বাঁকা Needle অথবা Needle-এর সাথে Machine Part-এর সংঘর্ষ।",
+      "aEn": "Incorrect needle size, a bent needle, or collision with machine parts.",
+      "options": [
+        "Correct Needle Size",
+        "Bent Needle",
+        "Proper Machine Setting",
+        "Correct Thread"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmptw8ayw",
+      "category": "sewing",
+      "qBn": "Seam Slippage কী?",
+      "qEn": "What is Seam Slippage?",
+      "aBn": "সেলাইয়ের কাছে কাপড়ের সুতা সরে গিয়ে Seam খুলে যাওয়াকে Seam Slippage বলে।",
+      "aEn": "Seam slippage occurs when fabric yarns shift near the seam, causing the seam to open.",
+      "options": [
+        "Seam Slippage",
+        "Skip Stitch",
+        "Oil Mark",
+        "Puckering"
+      ],
+      "correct": 0,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmptx4o0f",
+      "category": "sewing",
+      "qBn": "SPI মাপার জন্য কী ব্যবহার করা হয়?",
+      "qEn": "What is used to measure SPI?",
+      "aBn": "Stitch Counter অথবা পরিমাপের স্কেল ব্যবহার করা হয়।",
+      "aEn": "A stitch counter or measuring scale is used to measure SPI.",
+      "options": [
+        "Thermometer",
+        "Stitch Counter",
+        "Weighing Scale",
+        "Measuring Tape Only"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmptuwafq",
+      "category": "sewing",
+      "qBn": "Sewing Line Balancing কী?",
+      "qEn": "What is Sewing Line Balancing?",
+      "aBn": "অপারেশন অনুযায়ী কাজের চাপ সমানভাবে বণ্টন করে উৎপাদন প্রবাহ ঠিক রাখাকে Sewing Line Balancing বলে।",
+      "aEn": "Sewing line balancing is the distribution of workload among operations to maintain smooth production flow.",
+      "options": [
+        "Fabric Inspection",
+        "Workload Distribution",
+        "Machine Cleaning",
+        "Final Inspection"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmpttoj9c",
+      "category": "sewing",
+      "qBn": "SMV এর পূর্ণরূপ কী?",
+      "qEn": "What is the full form of SMV?",
+      "aBn": "SMV এর পূর্ণরূপ হলো Standard Minute Value।",
+      "aEn": "SMV stands for Standard Minute Value.",
+      "options": [
+        "Standard Machine Value",
+        "Standard Minute Value",
+        "Sewing Machine Volume",
+        "Standard Material Value"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmpt3hgby",
+      "category": "sewing",
+      "qBn": "Sewing Efficiency কীভাবে হিসাব করা হয়?",
+      "qEn": "How is Sewing Efficiency calculated?",
+      "aBn": "Efficiency (%) = Earned Minutes ÷ Available Minutes × 100।",
+      "aEn": "Efficiency (%) = Earned Minutes ÷ Available Minutes × 100.",
+      "options": [
+        "Output ÷ Manpower × 100",
+        "Earned Minutes ÷ Available Minutes × 100",
+        "SMV ÷ Output × 100",
+        "Rejection ÷ Output × 100"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmpt4qp23",
+      "category": "sewing",
+      "qBn": "Sewing-এর সময় Oil Stain হওয়ার কারণ কী?",
+      "qEn": "What causes oil stains during sewing?",
+      "aBn": "মেশিন থেকে অতিরিক্ত তেল লিক হওয়া বা কাপড়ে তেলের সংস্পর্শ আসা।",
+      "aEn": "Excessive oil leakage from the machine or contact between oil and fabric.",
+      "options": [
+        "Wrong SPI",
+        "Oil Leakage",
+        "Needle Size",
+        "Thread Tension"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmpt3o0xo",
+      "category": "sewing",
+      "qBn": "Sewing Quality Control-এর প্রধান উদ্দেশ্য কী?",
+      "qEn": "What is the main objective of Sewing Quality Control?",
+      "aBn": "নির্ধারিত মান অনুযায়ী সেলাই নিশ্চিত করা এবং Defect প্রতিরোধ করা।",
+      "aEn": "To ensure stitching meets specified requirements and prevent defects.",
+      "options": [
+        "Increase Fabric Weight",
+        "Ensure Sewing Quality",
+        "Increase Cutting Waste",
+        "Reduce Fabric Width"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9kxmptuoqp1",
+      "category": "sewing",
+      "qBn": "Sewing Defect প্রতিরোধের সবচেয়ে ভালো উপায় কী?",
+      "qEn": "What is the best way to prevent sewing defects?",
+      "aBn": "সঠিক Machine Setting, প্রশিক্ষিত Operator, নিয়মিত Inspection এবং দ্রুত Corrective Action গ্রহণ করা।",
+      "aEn": "Proper machine settings, trained operators, regular inspection, and prompt corrective action.",
       "options": [],
-      "correct": null
+      "correct": null,
+      "invalid": false
     }
   ],
-  "updatedAt": "2026-11-09T18:08:10.692Z"
+  "updatedAt": "2026-11-09T18:14:01.914Z"
 }
