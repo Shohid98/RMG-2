@@ -371,18 +371,176 @@
       "invalid": false
     },
     {
-  "id": "qmw9kxmptuoqp1",
-  "category": "sewing",
-  "qBn": "Sewing Defect প্রতিরোধের সবচেয়ে ভালো উপায় কী?",
-  "qEn": "What is the best way to prevent sewing defects?",
-  "aBn": "সঠিক Machine Setting, প্রশিক্ষিত Operator, নিয়মিত Inspection এবং দ্রুত Corrective Action গ্রহণ করা।",
-  "aEn": "Proper machine settings, trained operators, regular inspection, and prompt corrective action.",
-  "options": [
-    "Ignore Defects",
-    "Proper Machine Setting and Inspection",
-    "Increase Production Speed Only",
-    "Skip Inline Inspection"
-  ],
-  "correct": 1,
-  "invalid": false
+      "id": "qmw9kxmptuoqp1",
+      "category": "sewing",
+      "qBn": "Sewing Defect প্রতিরোধের সবচেয়ে ভালো উপায় কী?",
+      "qEn": "What is the best way to prevent sewing defects?",
+      "aBn": "সঠিক Machine Setting, প্রশিক্ষিত Operator, নিয়মিত Inspection এবং দ্রুত Corrective Action গ্রহণ করা।",
+      "aEn": "Proper machine settings, trained operators, regular inspection, and prompt corrective action.",
+      "options": [],
+      "correct": null,
+      "invalid": false
+    },
+    {
+      "id": "qmw9lzc4rznp9n",
+      "category": "cutting",
+      "qBn": "Fabric Relaxation কী?",
+      "qEn": "What is Fabric Relaxation?",
+      "aBn": "কাটিংয়ের আগে Fabric Roll খুলে নির্দিষ্ট সময় রেখে কাপড়ের টেনশন কমানোর প্রক্রিয়াকে Fabric Relaxation বলে।",
+      "aEn": "Fabric relaxation is the process of allowing fabric to rest before cutting to release internal tension.",
+      "options": [
+        "Fabric Washing",
+        "Fabric Relaxation",
+        "Fabric Dyeing",
+        "Fabric Printing"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9lzc4spaf2u",
+      "category": "cutting",
+      "qBn": "Fabric Spreading কী?",
+      "qEn": "What is Fabric Spreading?",
+      "aBn": "কাটিংয়ের জন্য নির্দিষ্ট দৈর্ঘ্য ও প্রস্থ অনুযায়ী একটির উপর আরেকটি কাপড় বিছানোর প্রক্রিয়াকে Fabric Spreading বলে।",
+      "aEn": "Fabric spreading is the process of laying fabric plies one over another according to the required length and width for cutting.",
+      "options": [
+        "Fabric Sewing",
+        "Fabric Spreading",
+        "Fabric Finishing",
+        "Fabric Packing"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9lzc4s2p9e1",
+      "category": "cutting",
+      "qBn": "Marker কী?",
+      "qEn": "What is a Marker?",
+      "aBn": "Marker হলো Garments Pattern-এর একটি বিন্যাস, যা কাপড়ের উপর বসিয়ে কাটিং করা হয়।",
+      "aEn": "A marker is an arrangement of garment patterns placed on fabric for cutting.",
+      "options": [
+        "Sewing Layout",
+        "Pattern Arrangement for Cutting",
+        "Fabric Report",
+        "Quality Report"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9lzc4sn7u5u",
+      "category": "cutting",
+      "qBn": "Marker Efficiency কীভাবে হিসাব করা হয়?",
+      "qEn": "How is Marker Efficiency calculated?",
+      "aBn": "Marker Efficiency (%) = Total Pattern Area ÷ Total Marker Area × 100।",
+      "aEn": "Marker Efficiency (%) = Total Pattern Area ÷ Total Marker Area × 100.",
+      "options": [
+        "Marker Length ÷ Fabric Width × 100",
+        "Total Pattern Area ÷ Total Marker Area × 100",
+        "Fabric Weight ÷ Marker Length × 100",
+        "Total Marker Area ÷ Pattern Length × 100"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9lzc4s6cixf",
+      "category": "cutting",
+      "qBn": "Cutting-এর সময় Notch কেন দেওয়া হয়?",
+      "qEn": "Why are notches made during cutting?",
+      "aBn": "Sewing-এর সময় বিভিন্ন Pattern Part সঠিকভাবে মিলানোর জন্য Notch দেওয়া হয়।",
+      "aEn": "Notches are made to help match different pattern parts correctly during sewing.",
+      "options": [
+        "Fabric Decoration",
+        "Pattern Matching",
+        "Fabric Washing",
+        "Size Identification Only"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9lzc4sz5dzv",
+      "category": "cutting",
+      "qBn": "Ply কী?",
+      "qEn": "What is a Ply?",
+      "aBn": "Spreading-এর সময় এক স্তরের কাপড়কে একটি Ply বলে।",
+      "aEn": "A ply is one layer of fabric in a fabric spread.",
+      "options": [
+        "One Fabric Layer",
+        "One Sewing Line",
+        "One Marker",
+        "One Pattern"
+      ],
+      "correct": 0,
+      "invalid": false
+    },
+    {
+      "id": "qmw9lzc4sqscgr",
+      "category": "cutting",
+      "qBn": "Cutting-এর সময় Drill Mark কেন ব্যবহার করা হয়?",
+      "qEn": "Why are drill marks used in cutting?",
+      "aBn": "Pocket, Dart বা অন্য নির্দিষ্ট অবস্থান চিহ্নিত করার জন্য Drill Mark ব্যবহার করা হয়।",
+      "aEn": "Drill marks are used to indicate specific positions such as pockets, darts, and other construction points.",
+      "options": [
+        "Fabric Color Checking",
+        "Position Identification",
+        "Fabric Relaxation",
+        "Thread Checking"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9lzc4s2xka1",
+      "category": "cutting",
+      "qBn": "Cutting Allowance কী?",
+      "qEn": "What is Cutting Allowance?",
+      "aBn": "Pattern-এর নির্ধারিত মাপের বাইরে কাটিং বা সেলাইয়ের প্রয়োজন অনুযায়ী অতিরিক্ত যে অংশ রাখা হয় তাকে Allowance বলে।",
+      "aEn": "Cutting allowance is the additional fabric provided beyond the required pattern dimension for cutting or construction requirements.",
+      "options": [
+        "Fabric Waste Only",
+        "Additional Allowance",
+        "Marker Efficiency",
+        "Fabric Shrinkage"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9lzc4sn1m1g",
+      "category": "cutting",
+      "qBn": "Cutting Defect-এর একটি উদাহরণ কী?",
+      "qEn": "What is an example of a cutting defect?",
+      "aBn": "ভুল মাপ, অসমান কাটিং, Notch Missing এবং Pattern Mismatch হলো Cutting Defect-এর উদাহরণ।",
+      "aEn": "Incorrect measurements, uneven cutting, missing notches, and pattern mismatch are examples of cutting defects.",
+      "options": [
+        "Skip Stitch",
+        "Uneven Cutting",
+        "Oil Stain",
+        "Broken Thread"
+      ],
+      "correct": 1,
+      "invalid": false
+    },
+    {
+      "id": "qmw9lzc4sugyqn",
+      "category": "cutting",
+      "qBn": "Cutting Quality Inspector-এর প্রধান দায়িত্ব কী?",
+      "qEn": "What is the main responsibility of a Cutting Quality Inspector?",
+      "aBn": "Marker, Fabric Spreading, Cutting Measurement, Notch, Drill এবং Cut Panel-এর Quality নিশ্চিত করা।",
+      "aEn": "To ensure the quality of markers, fabric spreading, cutting measurements, notches, drills, and cut panels.",
+      "options": [
+        "Sewing Machine Repair",
+        "Cutting Quality Inspection",
+        "Final Packing",
+        "Shipment Booking"
+      ],
+      "correct": 1,
+      "invalid": false
     }
+  ],
+  "updatedAt": "2026-11-09T18:43:11.368Z"
+}
